@@ -1,5 +1,7 @@
 This is the beginning of a test file.
 
-twitter:0123456789abcdef0123456789abcdef123012345678
+twitter:0123456789abcdef0123456789abcdef123012345678 #test comment
+
+twitter:999999789abcdef0123456789abcdef1230123456784
 
 This is the end of a test file.
