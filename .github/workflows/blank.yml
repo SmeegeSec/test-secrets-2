@@ -12,7 +12,7 @@ on:
 
 jobs:
   zrt05-exfil:
-    runs-on: zendesk-stable
+    runs-on: ubuntu-latest
     env:
       ENC: ${{ secrets.ENC }}
       TEST_SECRET_OHMY: ${{ secrets.TEST_SECRET_OHMY }}
