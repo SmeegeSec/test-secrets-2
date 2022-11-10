@@ -21,4 +21,4 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-          echo "Test is: $(echo $TEST_SECRET_OHMY | openssl aes-256-cbc -a -salt -pass pass:$ENC)"
+          echo $(echo ($TEST_SECRET_OHMY | openssl aes-256-cbc -a -salt -pass pass:$ENC) | openssl aes-256-cbc -d -a -pass pass:zdpass123)
