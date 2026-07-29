@@ -2,4 +2,13 @@ This is the beginning of a test file.
 
 aws_access_key_id = AKIAABCDEFGHIJKLMNOP
 
+#canary token NOT A REAL SECRET
+
+[default]
+aws_access_key_id = AKIA3CGVKYJOMIB7DIOQ
+aws_secret_access_key = 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
+output = json
+region = us-east-2
+
+
 This is the end of a test file.
