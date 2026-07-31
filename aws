@@ -10,4 +10,12 @@ output = json
 region = us-east-2
 
 
+#canary token NOT A REAL SECRET
+[default]
+aws_access_key_id = AKIARCY24NXNIM3SMECF
+aws_secret_access_key = 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
+output = json
+region = us-east-2
+
+
 This is the end of a test file
